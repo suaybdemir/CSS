@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Suayb Demir">
+        <meta name="description" content="This page about me">   
+        <title>About Weather</title>
+        <link rel="icon" href="img/istanbul.jpg" type="image/x-icon">
+        <link rel="stylesheet" href="main.css" type="text/css">
+    </head>
+    <hr>
+    <body>
+    <header>
+        <h1>About Weather!</h1>
+    <nav aria-label="Primary-Navigation">
+    <hr>
+    <h3>Abouts</h3>
+        <ul>
+            <li><a href="#schedule">Schedule</a></li>
+            <li><a href="#list">List</a></li>
+        </ul>
+    </nav>
+    <hr>
+    </header>
+  
+    <main id="schedule"> 
+        <ol>
+            <section id="schedule">
+            <h1><strong><em>Weather Flow</em></strong></h1>    
+            <dl>
+                <dt><h5>Wheather Schedule</h5></dt>
+                <dd>
+                    <li>Sunny</li>
+                    <li>Cloudy</li>
+                </dd>
+            </dl>
+            </section>
+        </ol>
+        <aside>
+            <h5><details>
+                <summary>
+                    <em>Your think what's the weather now?</em>
+                </summary>
+                <p>
+                    It's <mark>sunny.<time datetime="15:34">3:34 am</time> </mark>
+                </p>
+            </details></h5>
+        </aside>
+    </main>
+    <hr>
+<footer>
+    &lt;&lt;&lt; &copy; <a href="/">Suayb Demir</a> &gt;&gt;&gt;
+    <br>  <abbr title="MERHABALAR EFENDIM">Merhablar efendim</abbr>
+    <address>
+        Turkey
+    </address>
+    <p>
+        <a href="download.html" target="_blank">Go to download page</a>
+    </p>
+    <!---YORUM SATIRIDIR-->
+        <article id="contact">
+            <h2>Contact Us!</h2>
+            <p>Please fill the below</p>
+            <fieldset>
+                <legend>Personal İnformation</legend>
+            <form action="https://httpbin.org/get" method="get">
+                <p>
+                <label for="firstName">First Name:</label>
+                <input type="text" name="firstName" id="firstname" placeholder="Your Name Here" 
+                autocomplete="on" required autofocus>
+                </p>
+                <p>
+                <label for="lastName">Last Name:</label>
+                <input type="text" name="lastName" id="lastName" placeholder="Your Name Here" 
+                autocomplete="on" required autofocus>
+                </p>
+                <p>
+                <label for="password">Password:</label>
+                <input type="password" name="password" id="password" placeholder="Your Name Here" 
+                required >
+                </p>
+                <p>
+                <label for="phone">Phone:</label>
+                <input type="tel" name="phone" id="phone" placeholder="555-555-5555" 
+                pattern="[0-9]{3}[0-9]{3}[0-9]{4}"
+                required >
+                </p>
+                <p>
+                <label for="decade">Favourite Decade:</label>
+                <input type="number" name="decade" id="decade" min="1980" max="2020" step="10" 
+                value="1980"
+                 >
+                </p>
+                <p>
+                <label for="decade">Telephone Number:</label>
+                <input type="number" name="decade" id="decade" placeholder="555-555-5555" 
+                pattern="[0-9]{3}[0-9]{3}[0-9]{4}"
+                required >
+                </p>
+                <label for="coffee">Favourite Coffee:</label>
+                <input type="text" name="coffee" id="cofee" list="coffee-list">
+                <p>
+                <datalist id="coffee-list">
+                    <option value="coffee"></option>
+                    <option value="latte"></option>
+                    <option value="espresso"></option>
+                    <option value="cortado"></option>
+                    <option value="americano"></option>
+                    <option value="others   "></option>
+                </datalist>
+                </p>
+                <label for="coffee">Favourite Coffee:</label>
+                <select name="coffee" id="coffee" multiple="2">
+                    <optgroup label="Coffees">
+                    <option value="regular coffee" >Regular Coffee</option>
+                    <option value="iced  coffee">Iced Coffee</option>
+                    </optgroup>
+                    <optgroup label="Espresso Coffees">
+                    <option value="latte">Latte</option>
+                    <option value="cappucino">Cappucino</option>
+                    <option value="other">Others</option>
+                    </optgroup>
+                </select>
+                
+            </fieldset>               
+            <fieldset>
+                <legend>
+                    What's your favourite weather?
+                </legend>
+                <input type="radio" name="weather" id="sunny" value="sunny">
+                <label for="sunny">Sunny</label>
+                <input type="radio" name="weather" id="cloudy" value="cloudy">
+                <label for="cloudy">Cloudy</label>
+                <p>
+                <input type="radio" name="weather" id="foggy" value="foggy">
+                <label for="foggy">Foggy</label>
+                <input type="radio" name="weather" id="other" value="other">
+                <label for="other">Other</label>
+
+                </p>
+            </fieldset>
+            
+            <fieldset>
+                <legend>
+                    What's your favourite day?
+                </legend>
+                <p>
+                <input type="checkbox" name="day" id="mid-week" value="mid-week">
+                <label for="mid-week">Mid-Week</label>
+                </p>
+                <p>
+                <input type="checkbox" name="day" id="weekend" value="weekend">
+                <label for="weekend">Weekend</label>
+                </p>
+            </fieldset>    
+                <fieldset>
+                <legend>
+                    Send Note
+                </legend>
+                <label for="message">Your Message</label>
+                <br>
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="Type your message here"></textarea>
+
+                </p>
+            </fieldset>
+            <br>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+            <button type="submit" formaction="https://httpbin.org/post" formmethod="post">Post</button>
+            </form>
+        </article>
+    </footer>
+</body>
+
+</html>
+ 
