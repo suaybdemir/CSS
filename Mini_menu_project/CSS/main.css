@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Puddles&display=swap');
+body
+{
+    background-color: #f5b700;
+    font-size: 5em;
+}
+table,tr,th,td
+{
+    border-radius: 20em;
+    font-family: 'Rubik Puddles', cursive;
+    text-align: center;
+    border-collapse: collapse;
+    padding: 0.5em;
+    margin: auto;
+}
+
+a
+{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover , a:focus
+{
+    color: black;
+    opacity: 0.7;
+}
+th
+{
+    background-color: #d19c1d;
+}
+p
+{
+    text-align: center;
+    opacity: 0.2;
+
+}
+
+
+
+

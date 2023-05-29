@@ -1,9 +1,8 @@
-html{
-    font-size: 15px;
-}
+
 body
 {
     background-color: rgb(230, 121, 58);
+    font-size:16px;
 }
 a{
     color: rgb(18, 17, 17);
@@ -12,7 +11,7 @@ a :visited
 {
     color: blue;
 }
-a:hover a:active
+a:hover, a:active
 {
     color: rgb(194, 78, 25);
 }
