@@ -6,7 +6,7 @@ body
 }
 table,tr,th,td
 {
-    border-radius: 20em;
+    border-radius: 50%;
     font-family: 'Rubik Puddles', cursive;
     text-align: center;
     border-collapse: collapse;
@@ -19,22 +19,28 @@ a
     color: black;
     text-decoration: none;
     cursor: pointer;
+    display: block;
 }
 
 a:hover , a:focus
 {
     color: black;
-    opacity: 0.7;
+    opacity: 0.8;
+    background-color: #d6a229;
+    display: block;
+    border-radius: 100%;
 }
 th
 {
     background-color: #d19c1d;
+    display: block;
+    
 }
-p
+.foot
 {
     text-align: center;
-    opacity: 0.2;
-
+    color: black;
+   
 }
 
 
