@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+html
+{
+    font-family: 'Roboto', sans-serif;
+   
+}
+*
+{
+    box-sizing: border-box;
+}
+
+body
+{
+    background-image: radial-gradient(whitesmoke,#f3d5b5,#e7bc91,#d4a276);
+    min-height: 100vh;
+}
+
+header
+{
+    font-size: 2rem;
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+    position: sticky;
+    font-style: italic;
+    color: #2b2d42;
+    
+}
+
+.navhead
+{
+    margin-top: 0;
+    background-color: #ffedd8;
+    background-image: radial-gradient(whitesmoke,#e7bc91);
+    border: 0.3rem ridge #fff ;
+    border-radius: 100%;
+}
+
+.navigation
+{
+    font-size: 1rem;
+    font-weight: 900;
+   
+    color: #1b263b;
+    background-color: #e8dab2;
+    border: 0.5rem outset #f1faee;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: sticky;
+    
+   
+}
+
+.navigation a:hover, .navigation a:focus
+{
+    color: hsla(0, 0%, 20%, 0.7);
+
+}
+
+.navigation a, .navigation a:visited
+{
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+pre
+{
+    text-align: center;
+}
+.zero
+{
+    
+    font-size: 2rem;
+    text-align: center;
+    background-color: #EEE5E9;
+    border-radius: 2px;
+    margin: auto;
+    padding: auto;
+    border: 5px double #7C7C7C;
+    width: auto;
+    height: auto;
+}
+
+.first
+{
+    font-size: larger;
+    margin: 3em;
+    text-align: center;
+}
+.img
+{
+    float: left;
+    padding: 1rem;
+    margin-left: 1rem;
+}
+
+.img2 
+{
+    float:right;
+    
+    padding: 0.5rem;
+    margin-right: 1.5rem;
+}
+
+.img3
+{
+    float:right;
+    
+    padding: 0.5rem;
+    margin: 1.5rem;
+    
+}
+
+.booktext
+{
+    font-size: 1.2rem;
+    margin:2.5rem;
+    padding: 0.5rem;
+}
+
+/* .book
+{
+    padding: 1rem;
+    margin: 2rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    float: right;
+}
+
+.booktext
+{
+    
+    min-height: 100px;
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+    gap : 1rem;
+    
+}  */
+
+.copy
+{
+    margin-top: 15em;
+    text-align: center;
+    background-image: radial-gradient(#f5ebe0,whitesmoke);
+    text-decoration:none;
+    position:sticky;
+}
+
+.copy a:visited, .copy a 
+{
+    text-decoration:none;
+    color: #000;
+    
+}
+.copy a:hover, .copy a:focus
+{
+    color: hsla(0, 0%, 20%, 0.7);
+}
