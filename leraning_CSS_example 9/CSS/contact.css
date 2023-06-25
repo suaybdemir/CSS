@@ -61,3 +61,26 @@ fieldset
     margin: 1rem;
     padding: 1rem;
 }
+
+input[type=text], select {
+    width: 10%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  textarea {
+    width: 60%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: #f8f8f8;
+    resize: none;
+  }
+
+  

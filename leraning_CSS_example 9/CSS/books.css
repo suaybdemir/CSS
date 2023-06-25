@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+html
+{
+    font-family: 'Roboto', sans-serif;
+}
+*
+{
+    box-sizing: border-box;
+}
+
+body
+{
+
+    background-image: radial-gradient(whitesmoke,#f3d5b5,#e7bc91,#d4a276);
+}
+
+header
+{
+    font-size: 2rem;
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+    position: sticky;
+    color: #1b263b;
+}
+.navhead 
+{
+    background-image: radial-gradient(whitesmoke,#e7bc91);
+    border: 0.3rem ridge #fff ;
+    border-radius: 100%;
+}
+
+.navhead a:
+{
+
+}
+
+.navigation
+{
+    
+    font-size: 1rem;
+    font-weight: bolder;
+    color: #1b263b;
+    border: 0.5rem outset #fff;
+    border-radius: 10px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: sticky;
+}
+
+footer
+{   
+    text-align: center;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+
+.navigation a, .navigation a:visited
+{
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+.navigation a:hover , .navigation a:focus
+{
+    color: hsla(0, 0%,20%,0.7);
+}
+.books
+{
+    
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    padding: 1rem;
+    margin: 1rem;
+    flex-direction: row;
+}
+
+.books :nth-child(odd)
+{
+    float: right;
+}
+
+.bos
+{
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.bos1
+{
+    margin: auto;
+    padding: auto;
+    font-weight: 400;
+}
+
+.goethe
+{
+    margin: 1rem;
+    padding: 1rem;
+}
+.goethe1
+{
+    margin: 1rem;
+    padding: 1rem;
+    font-weight: 400;
+}
+.me
+{
+    margin: 1rem;
+    padding: 1rem;
+}
+.me1
+{
+    margin: 1rem;
+    padding: 1rem;
+    font-weight: 400;
+}
+.ısolt
+{
+    margin: 1rem;
+    padding: 1rem;
+}
+.ısolt1
+{
+    margin: 1rem;
+    padding: 1rem;
+    font-weight: 400;
+}
+.lop
+{
+    margin: 1rem;
+    padding: 1rem;
+}
+.lop1
+{
+    margin: 1rem;
+    padding: 1rem;
+    font-weight: 400;
+}
