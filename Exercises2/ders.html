@@ -1,0 +1,162 @@
+<html>
+  <head>
+    <style>
+      .topnav {
+        overflow: hidden;
+        background-color: #333;
+      }
+      .topnav a {
+        float: left;
+        display: flex;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+      .column {
+        float: left;
+        width: 33.33%;
+      }
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      @media screen and (max-width: 600px) {
+        .column {
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="topnav">
+      <a
+        ><img
+          class=""
+          src="data:image/png;base64,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"
+          alt=""
+      /></a>
+      <a href="index.html">Ana Sayfa</a> | <a href="ders.html">Ders</a> |
+    </div>
+    <br />
+    <label for="dersler">Ders Seçimi:</label>
+    <select name="dersler" id="dersler">
+      <optgroup label="Dersler">
+        <option value="volvo">Web Tasarımı ve Programlama</option>
+        <option value="saab">Veri Yapıları</option>
+      </optgroup>
+      <optgroup label="Dersler">
+        <option value="volvo">Web Tasarımı ve Programlama</option>
+        <option value="saab">Veri Yapıları</option>
+      </optgroup>
+    </select>
+    <br />
+    <h4>Ders Saati</h4>
+    <form oninput="x.value=parseInt(a.value)">
+      <input type="range" id="a" value="3" min="0" max="5" />
+      <output name="x" for="a"></output>
+    </form>
+    <table>
+      <colgroup>
+        <col span="2" style="background-color: darkgray" />
+        <col span="2" style="background-color: beige" />
+      </colgroup>
+      <thead>
+        <tr>
+          <th>Öğrenci Numarası</th>
+          <th>Ad-Soyad</th>
+          <th>Devam</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>2030121024</td>
+          <td>Tezcan Sarızeybek</td>
+          <td>
+            <center><input type="checkbox" /></center>
+          </td>
+        </tr>
+        <tr>
+          <td>2030121001</td>
+          <td>Ömer Can Eskicioğlu</td>
+          <td>
+            <center><input type="checkbox" /></center>
+          </td>
+        </tr>
+        <tr>
+          <td>2030121002</td>
+          <td>Mehmet Furkan Akça</td>
+          <td>
+            <center><input type="checkbox" /></center>
+          </td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <td></td>
+        <td></td>
+        <td>
+          <center><button>Yoklama Al</button></center>
+        </td>
+      </tfoot>
+    </table>
+    <hr />
+    <label for="ogr">En Çok Devamlılık Sağlayan Öğrenci</label>
+    <input list="ogrs" name="ogr" id="ogr" />
+    <datalist id="ogrs">
+      <option value="Tezcan Sarızeybek"></option>
+      <option value="Ömer Can Eskicioğlu"></option>
+      <option value="Mehmet Furkan Akça"></option>
+    </datalist>
+
+    <button>Sonucu Gönder</button><br />
+    <h2>Sonuçlar:</h2>
+    <ul>
+      <li>
+        <em>Tezcan <mark>Sarızeybek</mark></em>
+      </li>
+      <li>
+        <ins>Mehmet Furkan Akça</ins>
+      </li>
+      <li>
+        <del>Ömer Can Eskicioğlu</del>
+      </li>
+    </ul>
+    <hr />
+    <details>
+      <summary>Sonuç Olarak</summary>
+      <div>
+        <label for="1">Tezcan Sarızeybek</label>
+        <meter id="1" value="0.6">60%</meter>
+        <br />
+        <label for="2">Mehmet Furkan Akça</label>
+        <meter id="2" value="0.3">30%</meter>
+        <br />
+        <label for="3">Ömer Can Eskicioğlu</label>
+        <meter id="3" value="0.1">10%</meter>
+      </div>
+    </details>
+    <hr />
+    <iframe
+      src="https://www.youtube.com/embed/_yZ-B3jo004?si=dnvCe0tjNIlOkSw9"
+      allowfullscreen
+    ></iframe>
+    <br />
+    <br />
+    <label for="file">Site Tamamlanması:</label>
+    <progress id="file" value="90" max="100">90%</progress>
+    <br />
+    <br />
+    <form action="">
+      <label for="gorus">Site Hakkında Görüşleriniz:</label><br />
+      <textarea id="gorus" name="gorus" rows="4" cols="50">Yok</textarea>
+      <br />
+      <input type="submit" />
+    </form>
+    <dialog open>Site Bitti</dialog>
+  </body>
+</html>
